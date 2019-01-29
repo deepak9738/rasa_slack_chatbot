@@ -1,0 +1,291 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "check service google",
+        "intent": "checkservice",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "google",
+            "entity": "website"
+          }
+        ]
+      },
+      {
+        "text": "check service yahoo",
+        "intent": "checkservice",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "yahoo",
+            "entity": "website"
+          }
+        ]
+      },
+      {
+        "text": "build a jenkins job",
+        "intent": "st_jenkin",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "jenkins",
+            "entity": "jenkins"
+          }
+        ]
+      },
+      {
+        "text": "start a jenkins job",
+        "intent": "st_jenkin",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": " jenkins",
+            "entity": "jenkins"
+          }
+        ]
+      },
+      {
+        "text": "its Test_Job",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "Test_Job",
+            "entity": "app_name"
+          }
+        ]
+      },
+      {
+        "text": "Test_Job",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Test_Job",
+            "entity": "app_name"
+          }
+        ]
+      },
+      {
+        "text": "Test_Job",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Test_Job",
+            "entity": "app_name"
+          }
+        ]
+      },
+      {
+        "text": "ahfusyhf",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "auhcbdi",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "ssshg",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "uhn",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "pq",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "ieufhoeacjnaskcj",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "isdgiuebckasjcnascwoiccsjcnsajkc",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "uyeifgiwudas",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "iusc",
+        "intent": "unknown",
+        "entities": []
+      },
+      {
+        "text": "build a jenkins job with parameters",
+        "intent": "st_jenkinp",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "jenkins",
+            "entity": "jenkins"
+          },
+          {
+            "start": 20,
+            "end": 35,
+            "value": "with parameters",
+            "entity": "with_param"
+          }
+        ]
+      },
+      {
+        "text": "start a jenkins job with parameters",
+        "intent": "st_jenkinp",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "jenkins",
+            "entity": "jenkins"
+          },
+          {
+            "start": 20,
+            "end": 35,
+            "value": "with parameters",
+            "entity": "with_param"
+          }
+        ]
+      },
+      {
+        "text": "Environment DEV",
+        "intent": "inform_para",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Environment",
+            "entity": "param"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "DEV",
+            "entity": "pvalue"
+          }
+        ]
+      },
+      {
+        "text": "Environment INT",
+        "intent": "inform_para",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Environment",
+            "entity": "param"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "INT",
+            "entity": "pvalue"
+          }
+        ]
+      },
+      {
+        "text": "Environment UAT",
+        "intent": "inform_para",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Environment",
+            "entity": "param"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "UAT",
+            "entity": "pvalue"
+          }
+        ]
+      },
+      {
+        "text": "sampleapp",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "sampleapp",
+            "entity": "app_name"
+          }
+        ]
+      },
+      {
+        "text": "Its sampleapp",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "sampleapp",
+            "entity": "app_name"
+          }
+        ]
+      },
+      {
+        "text": "it is sampleapp",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 15,
+            "value": "sampleapp",
+            "entity": "app_name"
+          }
+        ]
+      }
+    ]
+  }
+}
